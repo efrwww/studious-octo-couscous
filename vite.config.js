@@ -7,11 +7,13 @@ export default defineConfig({
     port: 5173,
     host: true
   },
+  publicDir: 'public',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
     sourcemap: false,
-    minify: 'esbuild'
+    minify: 'esbuild',
+    copyPublicDir: true
   },
   base: './'
 })

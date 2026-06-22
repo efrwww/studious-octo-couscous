@@ -132,9 +132,9 @@ const Portfolio = () => {
       <div className="container">
         <div className="portfolio-header">
           <div className="section-label">
-            <span>{activeFilter === 'summary' ? '作品集' : '设备清单'}</span>
+            <span>摄影装备</span>
           </div>
-          <h2 className="section-title">{activeFilter === 'summary' ? '我的AIGC作品集' : '摄影装备'}</h2>
+          <h2 className="section-title">我的摄影装备</h2>
         </div>
 
         {/* Filters */}
